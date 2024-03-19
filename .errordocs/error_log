@@ -1,0 +1,25 @@
+[11-Sep-2021 03:03:16 UTC] PHP Notice:  Undefined variable: hewie in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php on line 46
+[11-Sep-2021 03:03:16 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php(44) : runtime-created function on line 1
+[11-Sep-2021 03:03:17 UTC] PHP Notice:  Undefined variable: hewie in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php on line 46
+[11-Sep-2021 03:03:17 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php(44) : runtime-created function on line 1
+[11-Sep-2021 03:03:17 UTC] PHP Notice:  Undefined variable: hewie in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php on line 46
+[11-Sep-2021 03:03:17 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php(44) : runtime-created function on line 1
+[11-Sep-2021 03:03:17 UTC] PHP Notice:  Undefined variable: hewie in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php on line 46
+[11-Sep-2021 03:03:17 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php(44) : runtime-created function on line 1
+[11-Sep-2021 03:03:18 UTC] PHP Warning:  ftp_put(): Can't open that file: No such file or directory in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php(44) : runtime-created function(1) : eval()'d code(1) : eval()'d code(23) : eval()'d code on line 49
+[11-Sep-2021 03:03:18 UTC] PHP Notice:  Undefined variable: hewie in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php on line 46
+[11-Sep-2021 03:03:18 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php(44) : runtime-created function on line 1
+[11-Sep-2021 03:03:18 UTC] PHP Notice:  Undefined variable: hewie in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php on line 46
+[11-Sep-2021 03:03:18 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php(44) : runtime-created function on line 1
+[11-Sep-2021 03:03:20 UTC] PHP Warning:  ftp_put(): Can't open that file: No such file or directory in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php(44) : runtime-created function(1) : eval()'d code(1) : eval()'d code(23) : eval()'d code on line 49
+[11-Sep-2021 03:03:20 UTC] PHP Notice:  Undefined variable: hewie in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php on line 46
+[11-Sep-2021 03:03:20 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php(44) : runtime-created function on line 1
+[11-Sep-2021 03:03:21 UTC] PHP Notice:  Undefined variable: hewie in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php on line 46
+[11-Sep-2021 03:03:21 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php(44) : runtime-created function on line 1
+[11-Sep-2021 03:03:31 UTC] PHP Notice:  Undefined variable: hewie in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php on line 46
+[11-Sep-2021 03:03:31 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php(44) : runtime-created function on line 1
+[11-Sep-2021 03:03:31 UTC] PHP Notice:  Undefined variable: hewie in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php on line 46
+[11-Sep-2021 03:03:31 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php(44) : runtime-created function on line 1
+[11-Sep-2021 03:03:41 UTC] PHP Notice:  Undefined variable: hewie in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php on line 46
+[11-Sep-2021 03:03:41 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/oswgm964hbzy/public_html/.errordocs/403_backup.php(44) : runtime-created function on line 1
+[16-Mar-2024 07:59:31 UTC] PHP Notice:  Undefined variable: headers in /home/oswgm964hbzy/public_html/.errordocs/testmail.php on line 11
