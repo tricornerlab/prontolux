@@ -1,0 +1,281 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.text-primary{
+    color: #7c858e;
+}
+.text-secondary{
+    color: #4099de;
+}
+.text-tertiary{
+    color: #f6fbff;
+}
+.text-danger{
+    color: #ffdddd;
+}
+.text-accent {
+    color:#3c4b5f;
+}
+
+.text-accent{
+    color:#94ae0e;
+}
+.bg-primary{background-color: #7e8ea1;}
+.bg-accent{background-color: #94ae0e;}
+
+.nav-item{align-items: flex-start; justify-content: flex-start; flex: border-box; width:400px; }
+.navbar{width: 300px; height: auto;}
+.main{ width: 100%;}
+.btn{background-color: #4099de;
+    /*height: 2.25rem!important;*/
+    height: 45px!important;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    line-height: 2.25rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 5%);
+    color: white;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    font-weight: 800;
+    width: 170px;
+    padding: 8px;
+}
+.btn-white{background-color: white;
+    color: #4a5568;}
+
+.btn-icon{width: 110px;}
+.titlerow{
+    font-weight: 400;
+    line-height: 2.15;
+    text-indent: initial;
+    font-size: 1rem;
+    height: 70px!important;
+
+}
+.form-search{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 0;
+}
+
+trix-editor {
+    display: block;
+}
+
+trix-editor:empty:not(:focus)::before {
+    content: attr(placeholder);
+    color: graytext;
+    cursor: text;
+    pointer-events: none;
+}
+
+trix-editor a[contenteditable=false] {
+    cursor: text;
+}
+
+trix-editor img1 {
+    max-width: 100%;
+    height: auto;
+}
+
+trix-editor [data-trix-attachment] figcaption textarea {
+    resize: none;
+}
+
+trix-editor [data-trix-attachment] figcaption textarea.trix-autoresize-clone {
+    position: absolute;
+    left: -9999px;
+    max-height: 0px;
+}
+
+trix-editor [data-trix-attachment] figcaption[data-trix-placeholder]:empty::before {
+    content: attr(data-trix-placeholder);
+    color: graytext;
+}
+
+trix-editor [data-trix-cursor-target] {
+    display: inline-block !important;
+    width: 1px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+trix-editor [data-trix-cursor-target=left] {
+    vertical-align: top !important;
+    margin-left: -1px !important;
+}
+
+trix-editor [data-trix-cursor-target=right] {
+    vertical-align: bottom !important;
+    margin-right: -1px !important;
+}
+trix-toolbar {
+    display: block;
+}
+
+trix-toolbar {
+    white-space: nowrap;
+}
+
+trix-toolbar [data-trix-dialog] {
+    display: none;
+}
+
+trix-toolbar [data-trix-dialog][data-trix-active] {
+    display: block;
+}
+
+trix-toolbar [data-trix-dialog] [data-trix-validate]:invalid {
+    background-color: #ffdddd;
+}
+.algolia-places {
+    width: 100%;
+}
+
+.ap-input, .ap-hint {
+    width: 100%;
+    padding-right: 35px;
+    padding-left: 16px;
+    line-height: 40px;
+    height: 40px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    outline: none;
+    font: inherit;
+    appearance: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+}
+
+.ap-input::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+.ap-input::-ms-clear {
+    display: none;
+}
+
+.ap-input:hover ~ .ap-input-icon svg,
+.ap-input:focus ~ .ap-input-icon svg,
+.ap-input-icon:hover svg {
+    fill: #aaaaaa;
+}
+
+.ap-dropdown-menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-top: 3px;
+    overflow: hidden;
+}
+
+.ap-suggestion {
+    cursor: pointer;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 18px;
+    overflow: hidden;
+}
+
+.ap-suggestion em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.ap-address {
+    font-size: smaller;
+    margin-left: 12px;
+    color: #aaaaaa;
+}
+
+.ap-suggestion-icon {
+    margin-right: 10px;
+    width: 14px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.ap-suggestion-icon svg {
+    display: inherit;
+    -webkit-transform: scale(0.9) translateY(2px);
+    transform: scale(0.9) translateY(2px);
+    fill: #cfcfcf;
+}
+
+.ap-input-icon {
+    border: 0;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 16px;
+    outline: none;
+}
+
+.ap-input-icon.ap-icon-pin {
+    cursor: pointer;
+}
+
+.ap-input-icon svg {
+    fill: #cfcfcf;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.ap-cursor {
+    background: #efefef;
+}
+
+.ap-cursor .ap-suggestion-icon svg {
+    -webkit-transform: scale(1) translateY(2px);
+    transform: scale(1) translateY(2px);
+    fill: #aaaaaa;
+}
+
+.ap-footer {
+    opacity: .8;
+    text-align: right;
+    padding: .5em 1em .5em 0;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.ap-footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.ap-footer a svg {
+    vertical-align: middle;
+}
+
+.ap-footer:hover {
+    opacity: 1;
+}
+th{
+    padding: 5px 5px 5px 5px;
+    color: #7c858e;
+
+}
+tr{padding: 10px 10px 10px 15px!important;
+    color: #7c858e;
+    width: 100%;
+    border-bottom: 1px solid gainsboro;
+    margin-left: 10px!important;
+}
+tr a{
+    color:#4099de;
+}
+
+.form-search2{position: absolute; top:250px;
+
+}
